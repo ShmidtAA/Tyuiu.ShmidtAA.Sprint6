@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 0", "Task 0", "{C541F950-046A-4378-89B4-8C4D48C08F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib", "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib\Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib.csproj", "{F1AED9EA-F929-4E13-A9D7-F454C1685DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib", "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib\Tyuiu.ShmidtAA.Sprint6.Task0.V12.Lib.csproj", "{F1AED9EA-F929-4E13-A9D7-F454C1685DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test", "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test\Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test.csproj", "{AAACAB3D-D180-4CFC-97B9-985A08606254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test", "Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test\Tyuiu.ShmidtAA.Sprint6.Task0.V12.Test.csproj", "{AAACAB3D-D180-4CFC-97B9-985A08606254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12", "Tyuiu.ShmidtAA.Sprint6.Task0.V12\Tyuiu.ShmidtAA.Sprint6.Task0.V12.csproj", "{0A70A72D-4E54-4A06-AB5A-A88EBAF13CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.ShmidtAA.Sprint6.Task0.V12", "Tyuiu.ShmidtAA.Sprint6.Task0.V12\Tyuiu.ShmidtAA.Sprint6.Task0.V12.csproj", "{0A70A72D-4E54-4A06-AB5A-A88EBAF13CAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

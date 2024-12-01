@@ -6,6 +6,7 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task0.V12
         public FormMain()
         {
             InitializeComponent();
+            this.AcceptButton = ButtonResultSAA;
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -13,7 +14,7 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task0.V12
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonResult_Click(object sender, EventArgs e)
         {
             DataService ds = new DataService();
             try
@@ -22,32 +23,11 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task0.V12
             }
             catch
             {
-                MessageBox.Show("У вас ошибка, сэр", "Вы ошиблись!", MessageBoxButtons.OK, MessageBoxIcon.Error );
+
+                MessageBox.Show("У вас ошибка, сэр", "Вы ошиблись!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
         }
-
-       
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBoxVar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
@@ -56,9 +36,15 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task0.V12
             }
         }
 
-        private void TextBoxResultSAA_TextChanged(object sender, EventArgs e)
+        private void buttonHelp_Click(object sender, EventArgs e)
         {
+            
 
+            MessageBox.Show("Выполнил студент группы ИБКСб-24-1 Шмидт Андрей Андреевич", "Сообщение");
+            
+            
         }
+
+       
     }
 }
