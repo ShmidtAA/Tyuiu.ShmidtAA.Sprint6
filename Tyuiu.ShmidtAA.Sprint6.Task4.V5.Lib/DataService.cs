@@ -20,8 +20,8 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task4.V5.Lib
                     resArray[count] = ((2 * Math.Sin(i)) / (3 * i + 1.2)) + Math.Cos(i) - 7 * i * 2;
                 }
                 resArray[count] = Math.Round(resArray[count], 2);
-                count++; 
-               
+                count++;
+
             }
             return resArray;
         }
