@@ -14,7 +14,7 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task6.V15.Lib
                 while ((line = reader.ReadLine()) != null)
                 {
                     string[] lineArray = line.Split(' ');
-                    result += lineArray[lineArray.Length-1];
+                    result += lineArray[lineArray.Length - 1] + ' ' ;
                 }
             }
             return result;
