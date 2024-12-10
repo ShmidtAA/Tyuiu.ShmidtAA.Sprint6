@@ -13,7 +13,7 @@ namespace Tyuiu.ShmidtAA.Sprint6.Task7.V9.Test
             int[,] matrix = ds.GetMatrix(path);
             int[] resultArray = new int[matrix.GetLength(0)];
             
-            for(int i = 0; i < matrix.GetLength(0); i++)
+            for(int i = 0; i < matrix.GetLength(0); i++) // уточнить как работает GetLength() 
             {
                 resultArray[i] = matrix[i, 2];
             }
